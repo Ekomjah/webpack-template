@@ -61,3 +61,4 @@ project/
 > NOTE: When running these new commands, note that it is `npm` that is used and not `npx ` as was used before! Hence, it is `npm run dev` and not `npx run dev` as this will throw an error in your CLI.
 
 - With this, your project should be ready for deployment.
+- Consider using PaaS like Netlify, Vercel, Cloudfare or others to do this as setting up pages could now become a rather complex task.
