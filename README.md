@@ -9,7 +9,7 @@ This is a minimal webpack template i have set up for ease of use of webpack and 
 
   > This if for the purpose of installing the `package.json` file. So if you have the file, you can skip this step!
 
-- Run `npm -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader html-loader` in any **CLI** of your choice (for installing the necessary devDependecies!)
+- Run `npm -D webpack webpack-cli webpack-dev-server webpack-merge html-webpack-plugin style-loader css-loader html-loader` in any **CLI** of your choice (for installing the necessary devDependecies!)
 
   > NOTE: For most basic SPAs (Single Page Applications), the above command is sufficient to load your `html`, `css` and `webpack` dependencies.
   >
