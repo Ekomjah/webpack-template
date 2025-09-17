@@ -1,10 +1,12 @@
 # webpack-template
+
 <<<<<<< HEAD
 
-This is a minimal webpack template i have set up for ease of use of webpack and having a cheatsheet webpack.config.js file!
-=======
+# This is a minimal webpack template i have set up for ease of use of webpack and having a cheatsheet webpack.config.js file!
+
 This is a minimal webpack template I have set up for ease of use of webpack and having a cheatsheet webpack.config.js file!
->>>>>>> 26887a68257db6cf7785fd1ce9507bf195c9643c
+
+> > > > > > > 26887a68257db6cf7785fd1ce9507bf195c9643c
 
 ## Here is the doc at your reach
 
@@ -15,11 +17,7 @@ This is a minimal webpack template I have set up for ease of use of webpack and 
 
   > This is for the purpose of installing the `package.json` file. So if you have the file, you can skip this step!
 
-<<<<<<< HEAD
 - Run `npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader html-loader` in any **CLI** of your choice (for installing the necessary devDependecies!)
-=======
-- Run `npm -D webpack webpack-cli webpack-dev-server webpack-merge html-webpack-plugin style-loader css-loader html-loader` in any **CLI** of your choice (for installing the necessary devDependencies!)
->>>>>>> 26887a68257db6cf7785fd1ce9507bf195c9643c
 
   > NOTE: For most basic SPAs (Single Page Applications), the above command is sufficient to load your `html`, `css` and `webpack` dependencies.
   >
@@ -44,7 +42,7 @@ This is a minimal webpack template I have set up for ease of use of webpack and 
 ```
 project/
  |--src/
- | |--index.js 
+ | |--index.js
  | |--template.html
  |--public/
  |  |--assets/
