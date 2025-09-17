@@ -9,7 +9,7 @@ This is a minimal webpack template i have set up for ease of use of webpack and 
 
   > This if for the purpose of installing the `package.json` file. So if you have the file, you can skip this step!
 
-- Run `npm -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader html-loader` in any **CLI** of your choice (for installing the necessary devDependecies!)
+- Run `npm install -D webpack webpack-cli webpack-dev-server html-webpack-plugin style-loader css-loader html-loader` in any **CLI** of your choice (for installing the necessary devDependecies!)
 
   > NOTE: For most basic SPAs (Single Page Applications), the above command is sufficient to load your `html`, `css` and `webpack` dependencies.
   >
@@ -17,6 +17,10 @@ This is a minimal webpack template i have set up for ease of use of webpack and 
   > >
   > > > To do this run
   > > > `npm uninstall package_name`
+
+- Though optional, yet useful, consider using a code linter like ESLint. To use it, run: npm init @eslint/config@latest and answer the questions that the terminal gives using your arrow keys!
+
+-To use a preset configuration, and then add some rules, to override, consider using a specific shared config that is hosted on npm. Such style guides like airbnb, standard, xo are the most used!
 
 - Then, run `npx webpack`for bundling the code and any other attached assets.
 
