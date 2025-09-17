@@ -1,7 +1,9 @@
 # webpack-template
+
 This is a minimal webpack template i have set up for ease of use of webpack and having a cheatsheet webpack.config.js file!
 
 ## Here is the doc at your reach
+
 ## How to use the Webpack bundler
 
 - If you haven't yet, install `npm` from the official site
@@ -18,9 +20,9 @@ This is a minimal webpack template i have set up for ease of use of webpack and 
   > > > To do this run
   > > > `npm uninstall package_name`
 
-- Though optional, yet useful, consider using a code linter like ESLint. To use it, run: npm init @eslint/config@latest and answer the questions that the terminal gives using your arrow keys!
+- Though optional, yet useful, consider using a code linter like ESLint. To use it, run: `npm init @eslint/config@latest` and answer the questions that the terminal gives using your arrow keys! Then hit `npm install eslint@latest --save-dev` in the terminal as well!!
 
--To use a preset configuration, and then add some rules, to override, consider using a specific shared config that is hosted on npm. Such style guides like airbnb, standard, xo are the most used!
+- To use a preset configuration, and then add some rules, to override, consider using a specific shared config that is hosted on npm. Such style guides like airbnb, standard, xo are the most used!
 
 - Then, run `npx webpack`for bundling the code and any other attached assets.
 
