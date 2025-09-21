@@ -1,6 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const FaviconsWebpackPlugin = require("favicons-webpack-plugin");
+const Dotenv = require("dotenv-webpack");
 
 module.exports = {
   entry: "./src/index.js",
@@ -13,7 +13,6 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: "./src/template.html",
     }),
-    new FaviconsWebpackPlugin("./src/assets/android-chrome-512x512.png"),
   ],
   module: {
     rules: [

@@ -14,26 +14,21 @@
   "license": "ISC",
   "devDependencies": {
     "@eslint/js": "^9.35.0",
+    "dotenv-webpack": "^8.1.1",
     "eslint": "^9.35.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.25.3",
-    "eslint-plugin-jsx-a11y": "^6.5.1",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^4.3.0",
     "globals": "^16.4.0",
     "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1"
   },
   "dependencies": {
-     "css-loader": "^7.1.2",
-    "favicons-webpack-plugin": "^6.0.1",
+    "css-loader": "^7.1.2",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.4",
+    "lodash": "^4.17.21",
     "style-loader": "^4.0.0",
     "webpack": "^5.101.3",
     "webpack-cli": "^6.0.1",
     "webpack-dev-server": "^5.2.2",
-    "webpack-merge": "^6.0.1",
-    "lodash": "^4.17.21"
+    "webpack-merge": "^6.0.1"
   }
 }

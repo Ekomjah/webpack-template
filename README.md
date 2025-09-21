@@ -10,7 +10,11 @@ This is a minimal webpack template I have set up for ease of use of webpack and 
 
 ## Here is the doc at your reach
 
-## How to use the Webpack bundler
+### Npm installation
+To use, run `npm install webpack-template` and watch as this template and all its deps get installed!
+
+
+## How to use the Webpack bundler (Manual Installation)
 
 - If you haven't yet, install `npm` from the official site
 - First run `npm init -y`
@@ -26,18 +30,7 @@ This is a minimal webpack template I have set up for ease of use of webpack and 
   > > > To do this, run
   > > > `npm uninstall package_name`
 
-- Though optional, yet useful, consider using a code linter like ESLint. To use it, run: `npm init @eslint/config@latest` and answer the questions that the terminal gives using your arrow keys! Then hit `npm install eslint@latest --save-dev` in the terminal as well!!
-
-- To use a preset configuration, and then add some rules, to override, consider using a specific shared config that is hosted on npm. Such style guides like airbnb, standard, xo are the most used!
-
-- Then, run `npx webpack`for bundling the code and any other attached assets.
-
-> P.S. `html loader` is used to run any `non-JS, non-HTML type files` like images wrapped in `img` els.
-
-> If using images in JavaScript, default import the images like:
-> `import <any_Name> from "./picture.extensionName"`
-
-- For a typical webpack project, the file structure should look like:
+  - For a typical webpack project, the file structure should look like:
 
 ```
 project/
@@ -69,6 +62,21 @@ project/
 - With this, you can then run `npm run dev` to view your project, load the project in a browser environment on a local server.
 
 - Then run `npm run build` to bundle the code for deployment.
+
+- Though optional, yet useful, consider using a code linter like ESLint. To use it, run: `npm init @eslint/config@latest` and answer the questions that the terminal gives using your arrow keys! Then hit `npm install eslint@latest --save-dev` in the terminal as well!!
+
+- To use a preset configuration, and then add some rules, to override, consider using a specific shared config that is hosted on npm. Such style guides like airbnb, standard, xo are the most used!
+
+
+## Live Server
+To use a "Live Server", run `npx webpack` or (`npm run build`) to for bundling the code and any other attached assets and for tree-shaking using a production mode with all enhanced features to enable your project's deployment.
+Although, during development, `npx webpack serve` will be your best bet combining all the cool stuff about webpack while using the development `mode`.
+
+> P.S. `html loader` is used to run any `non-JS, non-HTML type files` like images wrapped in `img` els.
+
+> If using images in JavaScript, default import the images like:
+> `import <any_Name> from "./picture.extensionName"`
+
 
 > NOTE: When running these new commands, note that it is `npm` that is used and not `npx ` as was used before! Hence, it is `npm run dev` and not `npx run dev` as this will throw an error in your CLI.
 
