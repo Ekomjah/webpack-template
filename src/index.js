@@ -1,5 +1,5 @@
-import "./styles.css";
 import "sanitize.css";
+import "./styles.css";
 
 function component() {
   const element = document.createElement("div");
