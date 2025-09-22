@@ -1,17 +1,20 @@
 # webpack-template
 
-<<<<<<< HEAD
-
-# This is a minimal webpack template i have set up for ease of use of webpack and having a cheatsheet webpack.config.js file!
+# This is a minimal webpack template I have set up for ease of use of webpack and having a cheatsheet webpack.config.js file!
 
 This is a minimal webpack template I have set up for ease of use of webpack and having a cheatsheet webpack.config.js file!
-
-> > > > > > > 26887a68257db6cf7785fd1ce9507bf195c9643c
 
 ## Here is the doc at your reach
 
 ### Npm installation
-To use, run `npm install webpack-template` and watch as this template and all its deps get installed!
+  To use, run 
+  ```
+npx degit Ekomjah/webpack-template my-new-project
+cd my-new-project
+npm install
+npm run dev
+```
+and watch as this template and all its deps get installed!
 
 
 ## How to use the Webpack bundler (Manual Installation)
