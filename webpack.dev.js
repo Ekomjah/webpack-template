@@ -1,14 +1,19 @@
+// webpack.dev.js
 const common = require("./webpack.common.js");
 const { merge } = require("webpack-merge");
-const path = require("path");
 
 module.exports = merge(common, {
   mode: "development",
   devtool: "eval-source-map",
   devServer: {
-    static: {
-      directory: path.join(__dirname, "dist"), // serve from dist
+    open: true,
+    hot: true,
+    historyApiFallback: true, // SPA routing fallback
+    watchFiles: ["src/**/*"], // watch all source files
+    static: false, // serve from webpack's in-memory bundle
+    devMiddleware: {
+      publicPath: "/", // ensure bundle reachable at root
+      writeToDisk: true, // optional: write files to disk for inspection
     },
-    watchFiles: ["./src/template.html"],
   },
 });
