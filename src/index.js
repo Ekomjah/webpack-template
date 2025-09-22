@@ -1,5 +1,6 @@
 import _ from "lodash";
 import "./styles.css"
+import "./sanitize.css"
 
 function component() {
   const element = document.createElement("div");
