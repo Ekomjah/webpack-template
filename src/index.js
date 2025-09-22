@@ -1,4 +1,8 @@
 import "sanitize.css";
+// optionally:
+// import 'sanitize.css/forms.css';
+// import 'sanitize.css/typography.css';
+
 import "./styles.css";
 
 function component() {
