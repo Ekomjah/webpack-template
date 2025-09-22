@@ -1,9 +1,6 @@
 body{
     width: 100%;
+    background: red;
 }
 
-*, ::after, ::before{
-    margin: 0;
-    padding: 0;
-}
 
