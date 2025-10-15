@@ -34,7 +34,6 @@ and watch as this template and all its deps get installed!
   > >
   > > > To do this, run
   > > > `npm uninstall package_name`
-
   - For a typical webpack project, the file structure should look like:
 
 ```
