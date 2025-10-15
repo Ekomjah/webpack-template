@@ -11,7 +11,7 @@ function component() {
 }
 
 document.body.appendChild(component());
-console.log("Hello from src/index.js");
+console.log("Hello from src/script.js");
 const me = "hello";
 // test.js
 

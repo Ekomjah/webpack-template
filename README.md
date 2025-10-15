@@ -7,15 +7,17 @@ This is a minimal webpack template I have set up for ease of use of webpack and 
 ## Here is the doc at your reach
 
 ### Npm installation
-  To use, run 
-  ```
+
+To use, run
+
+```
 npx degit Ekomjah/webpack-template my-new-project
 cd my-new-project
 npm install
 npm run dev
 ```
-and watch as this template and all its deps get installed!
 
+and watch as this template and all its deps get installed!
 
 ## How to use the Webpack bundler (Manual Installation)
 
@@ -38,11 +40,12 @@ and watch as this template and all its deps get installed!
 ```
 project/
  |--src/
- | |--index.js
- | |--template.html
+ | |--script.js
+ | |--styles.css
  |--public/
  |  |--assets/
  ├───package.json
+ ├───index.html
  └───readme.md
 ```
 
@@ -70,8 +73,8 @@ project/
 
 - To use a preset configuration, and then add some rules, to override, consider using a specific shared config that is hosted on npm. Such style guides like airbnb, standard, xo are the most used!
 
-
 ## Live Server
+
 To use a "Live Server", run `npx webpack` or (`npm run build`) to for bundling the code and any other attached assets and for tree-shaking using a production mode with all enhanced features to enable your project's deployment.
 Although, during development, `npx webpack serve` will be your best bet combining all the cool stuff about webpack while using the development `mode`.
 
@@ -79,7 +82,6 @@ Although, during development, `npx webpack serve` will be your best bet combinin
 
 > If using images in JavaScript, default import the images like:
 > `import <any_Name> from "./picture.extensionName"`
-
 
 > NOTE: When running these new commands, note that it is `npm` that is used and not `npx ` as was used before! Hence, it is `npm run dev` and not `npx run dev` as this will throw an error in your CLI.
 
