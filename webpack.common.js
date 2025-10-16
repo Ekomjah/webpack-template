@@ -1,6 +1,7 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const Dotenv = require("dotenv-webpack");
+const CopyWebpackPlugin = require("copy-webpack-plugin"); // added
 
 module.exports = {
   entry: "./src/script.js",
@@ -12,8 +13,15 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       template: "./index.html",
+      favicon: "./public/favicon.ico", // ✅ relative to project root
     }),
+
     new Dotenv(),
+    new CopyWebpackPlugin({
+      patterns: [
+        { from: "public", to: "." }, // ✅ copies favicon.ico and anything else
+      ],
+    }),
   ],
   module: {
     rules: [
@@ -40,7 +48,7 @@ module.exports = {
         loader: "html-loader",
       },
       {
-        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        test: /\.(png|svg|jpg|jpeg|gif|ico)$/i,
         type: "asset/resource",
       },
     ],
